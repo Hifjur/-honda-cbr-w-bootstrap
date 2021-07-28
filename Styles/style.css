@@ -4,3 +4,9 @@
 .button-color{
     background-color: #E76F51;
 }
+.BandW{
+    filter: grayscale(100%);
+}
+.orange{
+    color: #E76F51;
+}
