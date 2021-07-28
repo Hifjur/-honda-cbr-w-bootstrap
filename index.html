@@ -16,47 +16,75 @@
 
 <body>
     <header class="bg-header">
+        <!-- navbar -->
+        <nav class=" container navbar navbar-expand-lg navbar-dark">
+            <div class="container-fluid pt-5 pb-5 ">
+              
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Shop</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">News</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Contact</a>
+                  </li>
+                </ul>
+                <button type="button" class="btn button-color text-light">Login</button>
+              </div>
+            </div>
+          </nav>
         <!-- Top banner -->
-        <section class="container d-flex  justify-content-between align-items-center">
-            <div>
-                <p class="text-light">Computer-controlled digital transistorized with electronic advance</p>
-                <h1 class="text-light">Honda CBR 300R</h1>
-                <p class="text-white-50">A bike for people chashing the dream. Go beyond the limits with the best <br>
-                    technologically advanced motorcycle</p>
-                <!-- Button trigger modal -->
-                <button type="button" class="btn button-color text-light" data-bs-toggle="modal"
-                    data-bs-target="#staticBackdrop">
-                    Purchase
-                </button>
-
-                <!-- Modal -->
-                <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false"
-                    tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
-                    <div class="modal-dialog">
-                        <div class="modal-content">
-                            <div class="modal-header">
-                                <h5 class="modal-title" id="staticBackdropLabel">Honda CBR 300R</h5>
-                                <button type="button" class="btn-close" data-bs-dismiss="modal"
-                                    aria-label="Close"></button>
-                            </div>
-                            <div class="modal-body">
-                                <h5>About The Bike</h5>
-                                <p>If you’ve got a soft spot for sportbike design and Grand Prix stylings, then the 2021 Honda CBR300R is your sweet spot between form and function. It’s narrow, light, and a total blast to ride around town and on twisty back roads. The single-cylinder engine offers great fuel economy, with smooth and friendly torque delivery. And the affordable cost and responsive handling makes it a terrific bike for first-time riders, and for those looking to grow their garage. There’s even a version available with our anti-lock braking system. Plus, this year the CBR300R brings hot new graphics in two color choices. Time to get riding! <br>
-                                    <span class="fw-bold">2021 CBR300R</span> <br>
-                                    BASE MSRP: $4,799 Tooltip Asterik <br>
-                                    
-                                    <span class="fs-6">+Destination Charge: $400.00</span></p>
-                            </div>
-                            <div class="modal-footer">
-                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                                <button type="button" class="btn button-color text-light">Confirm</button>
+        <section class="container justify-content-between align-items-center">
+            <div class="row">
+                <div class="col-lg-6">
+                    <p class="text-light">Computer-controlled digital transistorized with electronic advance</p>
+                    <h1 class="text-light">Honda CBR 300R</h1>
+                    <p class="text-white-50">A bike for people chashing the dream. Go beyond the limits with the best <br>
+                        technologically advanced motorcycle</p>
+                    <!-- Button trigger modal -->
+                    <button type="button" class="btn button-color text-light" data-bs-toggle="modal"
+                        data-bs-target="#staticBackdrop">
+                        Purchase
+                    </button>
+    
+                    <!-- Modal -->
+                    <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false"
+                        tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="staticBackdropLabel">Honda CBR 300R</h5>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                        aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <h5>About The Bike</h5>
+                                    <p>If you’ve got a soft spot for sportbike design and Grand Prix stylings, then the 2021 Honda CBR300R is your sweet spot between form and function. It’s narrow, light, and a total blast to ride around town and on twisty back roads. The single-cylinder engine offers great fuel economy, with smooth and friendly torque delivery. And the affordable cost and responsive handling makes it a terrific bike for first-time riders, and for those looking to grow their garage. There’s even a version available with our anti-lock braking system. Plus, this year the CBR300R brings hot new graphics in two color choices. Time to get riding! <br>
+                                        <span class="fw-bold">2021 CBR300R</span> <br>
+                                        BASE MSRP: $4,799 Tooltip Asterik <br>
+                                        
+                                        <span class="fs-6">+Destination Charge: $400.00</span></p>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                    <button type="button" class="btn button-color text-light">Confirm</button>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
-            </div>
-            <div class="p-3">
-                <img src="images/header-bike.png" alt="">
+                <div class="p-3 col-lg-6">
+                    <img class="img-fluid" src="images/header-bike.png" alt="">
+                </div>
             </div>
         </section>
     </header>
@@ -65,7 +93,7 @@
         <section class="container mt-5 text-center">
             <h1>Fetured Bikes 2021</h1>
             <p class="orange">Best bike collection</p>
-            <div class="row row-cols-4 justify-content-between">
+            <div class="row cols-4 row-cols-4 justify-content-between">
                 <div><img class="img-fluid BandW col" src="images/feature-bike.jpg" alt=""></div>
                 <div><img class="img-fluid col" src="images/feature-bike.jpg" alt=""></div>
                 <div><img class="img-fluid BandW col" src="images/feature-bike.jpg" alt=""></div>
@@ -74,14 +102,14 @@
         <!-- Happy customer reviews -->
         <section class="container mt-5 text-center">
             <h1 class="pb-4">Happy <span class="orange">Clients says</span></h1>
-            <div class="row row-cols-4 justify-content-between">
+            <div class="row col-sm-12 row-cols-4 justify-content-between align-items-center">
                 <!-- customer card starts here -->
             <div class="card col mt-4" style="width: 20.75rem;">
                 <img class="img-fluid pt-5 ps-5 pe-5" src="images/user-1.png" class="card-img-top" alt="...">
                 <div class="card-body">
                   <p class="card-text">Bikes from here is just simply awesome. They have really great services and the wait time is very little compared to the compitition</p>
                   <!-- svg links for star ratings -->
-                  <div class="d-flex justify-content-center ">
+                  <div class="d-flex justify-content-center p-3 ">
                       <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 star-config" viewBox="0 0 20 20" fill="currentColor">
                         <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
                       </svg>
@@ -108,7 +136,7 @@
                 <div class="card-body">
                   <p class="card-text">Overall a great experience shopping for here. This is my first bike and They helped me a lot to find the right bike for me</p>
                   <!-- svg links for star ratings -->
-                  <div class="d-flex justify-content-center ">
+                  <div class="d-flex justify-content-center p-3 ">
                       <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 star-config" viewBox="0 0 20 20" fill="currentColor">
                         <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
                       </svg>
@@ -131,11 +159,11 @@
               </div>
                 <!-- customer card starts here -->
             <div class="card col mt-4" style="width: 20.75rem;">
-                <img class="img-fluid pt-5 ps-5 pe-5" src="images/user-1.png" class="card-img-top" alt="...">
+                <img class="img-fluid pt-5 ps-5 pe-5 BandW" src="images/user-1.png" class="card-img-top" alt="...">
                 <div class="card-body">
                   <p class="card-text">I have been using my bike everyday to work and its been working really fine. Insurance Policy is very secure. I am verry satisfied</p>
                   <!-- svg links for star ratings -->
-                  <div class="d-flex justify-content-center ">
+                  <div class="d-flex justify-content-center p-3">
                       <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 star-config" viewBox="0 0 20 20" fill="currentColor">
                         <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
                       </svg>
