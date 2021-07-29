@@ -19,7 +19,7 @@
 </head>
 
 <body>
-  <header class="bg-header">
+  <header class="bg-color-dark">
     <!-- navbar -->
     <nav class=" container navbar navbar-expand-lg navbar-dark">
       <div class="container-fluid pt-5 pb-5 ">
@@ -316,6 +316,55 @@
             </div>
           </div>
         </div>
+      </div>
+    </section>
+    <!-- photo gallary -->
+    <section class="container pt5 mt-5 mb-5 pb-5">
+      <h1 class="text-center pt-5 mt-5 pb-5"><span class="orange">Honda</span> Photo Gallary</h1>
+      <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="images/bike-5.png.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="images/bike-6.png.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="images/bike-7.jpg" class="d-block w-100" alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+        </div>
+
+      </div>
+
+    </section>
+    <!-- leave your feedback -->
+    <section class="bg-color-dark">
+      <h1 class="text-center text-light pt-5 pb-5">LEAVE YOUR <span class="orange">REVIEW</span> HERE!</h1>
+      <div class="container text-light pt-5 pb-5">
+        <div class="mb-3">
+          <label for="exampleFormControlInput1" class="form-label">Email address</label>
+          <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+        </div>
+        <div class="mb-3">
+          <label for="exampleFormControlTextarea1" class="form-label">Tell us what you think</label>
+          <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+        </div>
+        <button type="button" class="btn button-color text-light">Confirm</button>
       </div>
 
     </section>
